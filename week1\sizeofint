@@ -1,1 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    printf("Size of int in Windows : %d bytes\n",sizeof(int));
+    printf("Size of int in Linux : %lu bytes\n",sizeof(int));
+    return 0;
+}
 
